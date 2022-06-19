@@ -1,6 +1,7 @@
 use_frameworks!
 
 platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
 
 target 'TXIMSDK_TUIKit_iOS_Professional_Example' do
   pod 'TXIMSDK_TUIKit_iOS_Professional', :path => '../'

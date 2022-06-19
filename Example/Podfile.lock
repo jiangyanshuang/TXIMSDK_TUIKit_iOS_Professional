@@ -1,0 +1,45 @@
+PODS:
+  - MMLayout (0.2.0)
+  - ReactiveObjC (3.1.1)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - Toast (4.0.0)
+  - TXIMSDK_iOS (4.9.1)
+  - TXIMSDK_TUIKit_iOS_Professional (0.0.1):
+    - MMLayout (= 0.2.0)
+    - ReactiveObjC (= 3.1.1)
+    - SDWebImage (= 5.5.2)
+    - Toast (= 4.0.0)
+    - TXIMSDK_iOS (= 4.9.1)
+    - TXLiteAVSDK_Professional (= 7.4.9203)
+  - TXLiteAVSDK_Professional (7.4.9203)
+
+DEPENDENCIES:
+  - TXIMSDK_TUIKit_iOS_Professional (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - MMLayout
+    - ReactiveObjC
+    - SDWebImage
+    - Toast
+    - TXIMSDK_iOS
+    - TXLiteAVSDK_Professional
+
+EXTERNAL SOURCES:
+  TXIMSDK_TUIKit_iOS_Professional:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
+  ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  TXIMSDK_iOS: 587e25fa8b42c9f228bb9065084270fa6990190f
+  TXIMSDK_TUIKit_iOS_Professional: 4d56fba2c6cb4233f3b66ef539fccf97f25e5a8c
+  TXLiteAVSDK_Professional: fd94cd459f391be4f0cc098b5357a642ea28018d
+
+PODFILE CHECKSUM: 2b762c0da7c6a9848ccd29d0e48ef35ecab78c28
+
+COCOAPODS: 1.11.3
