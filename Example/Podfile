@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'TXIMSDK_TUIKit_iOS_Professional_Example' do
+  pod 'TXIMSDK_TUIKit_iOS_Professional', :path => '../'
+
+  target 'TXIMSDK_TUIKit_iOS_Professional_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
