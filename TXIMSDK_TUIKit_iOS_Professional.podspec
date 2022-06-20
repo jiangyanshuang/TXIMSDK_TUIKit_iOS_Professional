@@ -22,11 +22,9 @@ Pod::Spec.new do |s|
                        DESC
 
   s.homepage         = 'https://www.baidu.com'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-#  s.license          = { :type => 'MIT', :file => 'LICENSE' }
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '1048811572@qq.com' => '1048811572@qq.com' }
-#  s.source = { :http => 'https://imsdk-1252463788.cos.ap-guangzhou.myqcloud.com/4.9.1/TIM_SDK_TUIKIT_iOS_latest_framework.zip'}
-
+#  s.source = { :http => 'https://imsdk-1252463788.cos.ap-guangzhou.myqcloud.com/5.1.56/TIM_SDK_TUIKIT_iOS_latest_framework.zip'}
   s.source           = { :git => 'https://github.com/jiangyanshuang/TXIMSDK_TUIKit_iOS_Professional.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
@@ -36,36 +34,27 @@ Pod::Spec.new do |s|
   s.libraries    = 'stdc++'
 
   s.dependency 'MMLayout','0.2.0'
-  s.dependency 'SDWebImage','5.5.2'
+  s.dependency 'SDWebImage','5.9.0'
   s.dependency 'ReactiveObjC','3.1.1'
   s.dependency 'Toast','4.0.0'
-  s.dependency 'TXLiteAVSDK_Professional','7.4.9203'
-  s.dependency 'TXIMSDK_iOS','4.9.1'
+  s.dependency 'TXLiteAVSDK_Professional','8.5.10022'
+  s.dependency 'TXIMSDK_iOS','5.1.60'
   
   s.requires_arc = true
 
-#  s.source_files = '**/TXIMSDK_TUIKit_iOS_Professional/Classes/**/*.{h,m,mm}'
-#  # s.vendored_frameworks = ''
-#  s.vendored_libraries = ['**/TXIMSDK_TUIKit_iOS_Professional/Classes/third/voiceConvert/opencore-amrnb/libopencore-amrnb.a', '**/TXIMSDK_TUIKit_iOS_Professional/Classes/third/voiceConvert/opencore-amrwb/libopencore-amrwb.a']
-#  s.resource = ['**/TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitFace.bundle','**/TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitResource.bundle']
-#  s.resource_bundles = {
-#    'TXIMSDK_TUIKit_iOS_Professional' => ['**/TXIMSDK_TUIKit_iOS_Professional/Resources/Localizable/*']
-#  }
-#  s.pod_target_xcconfig = {
-#    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
-#  }
-#  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-
-  s.static_framework = true
-  
-  
-#  s.source = { :http => 'https://imsdk-1252463788.cos.ap-guangzhou.myqcloud.com/4.9.1/TIM_SDK_TUIKIT_iOS_latest_framework.zip'}
   s.source_files = '**/TXIMSDK_TUIKit_iOS_Professional/Classes/**/*.{h,m,mm}'
-  # spec.vendored_frameworks = ''
+  # s.vendored_frameworks = ''
   s.vendored_libraries = ['**/TXIMSDK_TUIKit_iOS_Professional/Classes/third/voiceConvert/opencore-amrnb/libopencore-amrnb.a', '**/TXIMSDK_TUIKit_iOS_Professional/Classes/third/voiceConvert/opencore-amrwb/libopencore-amrwb.a']
   s.resource = ['**/TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitFace.bundle','**/TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitResource.bundle']
+  s.resource_bundles = {
+    'TUIKitLocalizable' => ['**/TXIMSDK_TUIKit_iOS_Professional/Resources/Localizable/*']
+  }
+  s.pod_target_xcconfig = {
+    'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
+  }
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
-
+  s.static_framework = true
   
   # s.resource_bundles = {
   #   'TXIMSDK_TUIKit_iOS_Professional' => ['TXIMSDK_TUIKit_iOS_Professional/Assets/*.png']

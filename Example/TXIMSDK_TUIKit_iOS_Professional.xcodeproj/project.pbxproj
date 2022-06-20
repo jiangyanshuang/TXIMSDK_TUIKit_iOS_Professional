@@ -353,11 +353,13 @@
 				"${PODS_ROOT}/Target Support Files/Pods-TXIMSDK_TUIKit_iOS_Professional_Example/Pods-TXIMSDK_TUIKit_iOS_Professional_Example-resources.sh",
 				"${PODS_ROOT}/../../TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitFace.bundle",
 				"${PODS_ROOT}/../../TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitResource.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/TXIMSDK_TUIKit_iOS_Professional/TUIKitLocalizable.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TUIKitFace.bundle",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TUIKitResource.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TUIKitLocalizable.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;

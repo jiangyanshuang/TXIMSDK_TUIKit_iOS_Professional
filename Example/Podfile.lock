@@ -1,19 +1,19 @@
 PODS:
   - MMLayout (0.2.0)
   - ReactiveObjC (3.1.1)
-  - SDWebImage (5.5.2):
-    - SDWebImage/Core (= 5.5.2)
-  - SDWebImage/Core (5.5.2)
+  - SDWebImage (5.9.0):
+    - SDWebImage/Core (= 5.9.0)
+  - SDWebImage/Core (5.9.0)
   - Toast (4.0.0)
-  - TXIMSDK_iOS (4.9.1)
+  - TXIMSDK_iOS (5.1.60)
   - TXIMSDK_TUIKit_iOS_Professional (0.0.1):
     - MMLayout (= 0.2.0)
     - ReactiveObjC (= 3.1.1)
-    - SDWebImage (= 5.5.2)
+    - SDWebImage (= 5.9.0)
     - Toast (= 4.0.0)
-    - TXIMSDK_iOS (= 4.9.1)
-    - TXLiteAVSDK_Professional (= 7.4.9203)
-  - TXLiteAVSDK_Professional (7.4.9203)
+    - TXIMSDK_iOS (= 5.1.60)
+    - TXLiteAVSDK_Professional (= 8.5.10022)
+  - TXLiteAVSDK_Professional (8.5.10022)
 
 DEPENDENCIES:
   - TXIMSDK_TUIKit_iOS_Professional (from `../`)
@@ -34,11 +34,11 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   MMLayout: 3fb59d58eeb8656c64e61d550fb0088e10666c11
   ReactiveObjC: 011caa393aa0383245f2dcf9bf02e86b80b36040
-  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
   Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
-  TXIMSDK_iOS: 587e25fa8b42c9f228bb9065084270fa6990190f
-  TXIMSDK_TUIKit_iOS_Professional: 14a24712aa623b995ed02a1af531eaedb7eecd08
-  TXLiteAVSDK_Professional: fd94cd459f391be4f0cc098b5357a642ea28018d
+  TXIMSDK_iOS: 015557374d46a549ec63f298e76d1aaf38611284
+  TXIMSDK_TUIKit_iOS_Professional: 446d1b4c1de7afaffee6657ca92e215f61e3fe75
+  TXLiteAVSDK_Professional: 165018e2f0570d2608d7ea2b785fc273558f9920
 
 PODFILE CHECKSUM: 2b762c0da7c6a9848ccd29d0e48ef35ecab78c28
 
