@@ -45,10 +45,10 @@ Pod::Spec.new do |s|
   s.source_files = '**/TXIMSDK_TUIKit_iOS_Professional/Classes/**/*.{h,m,mm}'
   # s.vendored_frameworks = ''
   s.vendored_libraries = ['**/TXIMSDK_TUIKit_iOS_Professional/Classes/third/voiceConvert/opencore-amrnb/libopencore-amrnb.a', '**/TXIMSDK_TUIKit_iOS_Professional/Classes/third/voiceConvert/opencore-amrwb/libopencore-amrwb.a']
-  s.resource = ['**/TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitFace.bundle','**/TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitResource.bundle']
-  s.resource_bundles = {
-    'TUIKitLocalizable' => ['**/TXIMSDK_TUIKit_iOS_Professional/Resources/Localizable/*']
-  }
+  s.resource = ['TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitFace.bundle','TXIMSDK_TUIKit_iOS_Professional/Resources/TUIKitResource.bundle']
+#  s.resource_bundles = {
+#    'TUIKitLocalizable' => ['**/TXIMSDK_TUIKit_iOS_Professional/Resources/Localizable/*']
+#  }
   s.pod_target_xcconfig = {
     'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'
   }
